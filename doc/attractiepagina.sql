@@ -33,16 +33,16 @@ INSERT INTO `rides` (`title`, `themeland`, `img_file`, `description`, `min_lengt
 INSERT INTO `rides` (`title`, `themeland`, `img_file`, `description`, `min_length`, `fast_pass`) VALUES ('Turbo Turn 2000', 'adventureland', 'frenjamin-benklin-fiDVCWI9IUI-unsplash.jpg', 'Sterke maag? Laat je centrifugeren in de turboturn.', 100, 0);
 INSERT INTO `rides` (`title`, `themeland`, `img_file`, `description`, `min_length`, `fast_pass`) VALUES ('Boardwalk', 'adventureland', 'jason-leung-5ueIeoysAm8-unsplash.jpg', "Let's walk the board!", 90, 1);
 INSERT INTO `rides` (`title`, `themeland`, `img_file`, `description`, `min_length`, `fast_pass`) VALUES ('Houten achtbaan', 'adventureland', 'jeriden-villegas-XrDVROYUTOs-unsplash.jpg', 'De houten achtbaan is gesloten voor renovatie.', 90, 0);
-INSERT INTO `rides` (`title`, `themeland`, `img_file`, `description`, `min_length`, `fast_pass`) VALUES ('Turbo',    'adventureland', 'laurie-byrne-EtKSaG-PRbY-unsplash.jpg', 'Turbo-turbo, gas op die lollie!', 0, 0);
-INSERT INTO `rides` (`title`, `themeland`, `img_file`, `description`, `min_length`, `fast_pass`) VALUES ('Irvins Present', 'familyland', 'mahesh-patel-2Qyn5AqktyE-unsplash.jpg', 'Win de mooiste prijzen bij Irvin.', NULL, 0);
+INSERT INTO `rides` (`title`, `themeland`, `img_file`, `description`, `min_length`, `fast_pass`) VALUES ('Turbo',    'adventureland', 'laurie-byrne-EtKSaG-PRbY-unsplash.jpg', 'Turbo-turbo, gas op die lollie! Een niet-zo-spannend achtbaan voor iedereen.', 75, 0);
+INSERT INTO `rides` (`title`, `themeland`, `img_file`, `description`, `min_length`, `fast_pass`) VALUES ("Irvin's Present", 'familyland', 'mahesh-patel-2Qyn5AqktyE-unsplash.jpg', 'Win de mooiste prijzen bij Irvin (en betaal direct 85% kansspelbelasting).', NULL, 0);
 
 INSERT INTO `rides` (`title`, `themeland`, `img_file`, `description`, `min_length`, `fast_pass`) VALUES ('Speedy XL', 'adventureland', 'matt-bowden-GZc4fnQsaWQ-unsplash.jpg', 'Sneller dan speedy wordt het niet. Houd je vast!', 140, 1);
 INSERT INTO `rides` (`title`, `themeland`, `img_file`, `description`, `min_length`, `fast_pass`) VALUES ('Zweefmolen',  'familyland', 'parker-johnson-2Zxd7eYd1VA-unsplash.jpg', 'Draaimolen on steroids.', 100, 0);
 INSERT INTO `rides` (`title`, `themeland`, `img_file`, `description`, `min_length`, `fast_pass`) VALUES ('Vliegende Fanten', 'familyland', 'philipp-potocnik-nmVzQqgl-pc-unsplash.jpg', 'Vlieg een rondje op jouw favoriete olifant.', 70, 0);
-INSERT INTO `rides` (`title`, `themeland`, `img_file`, `description`, `min_length`, `fast_pass`) VALUES ('Goudvissen',   'waterland', 'remy-gieling--RwJveqoRrg-unsplash.jpg', 'Alleen geopend bij mooi weer, u kunt nat worden.', 90, 0);
-INSERT INTO `rides` (`title`, `themeland`, `img_file`, `description`, `min_length`, `fast_pass`) VALUES ('Top Gun',  'adventureland', 'rusty-watson-jlWKDeU83nw-unsplash.jpg', 'Toppers wagen hun leven, misselijkheid gegarandeerd.', 120, 1);
+INSERT INTO `rides` (`title`, `themeland`, `img_file`, `description`, `min_length`, `fast_pass`) VALUES ('Goudvissen',   'waterland', 'remy-gieling--RwJveqoRrg-unsplash.jpg', 'Alleen open bij mooi weer. U kunt nat worden (of gebeten door een goudvis).', 90, 0);
+INSERT INTO `rides` (`title`, `themeland`, `img_file`, `description`, `min_length`, `fast_pass`) VALUES ('Top Gun',  'adventureland', 'rusty-watson-jlWKDeU83nw-unsplash.jpg', 'Toppers wagen hun leven in Top Gun, misselijkheid gegarandeerd.', 120, 1);
 
-INSERT INTO `rides` (`title`, `themeland`, `img_file`, `description`, `min_length`, `fast_pass`) VALUES ('Nitro',    'adventureland', 'steve-doig-Pm8PTvvEU1w-unsplash.jpg', 'Nitro is tijdelijk gesloten wegens een ongeval.', 100, 0);
+INSERT INTO `rides` (`title`, `themeland`, `img_file`, `description`, `min_length`, `fast_pass`) VALUES ('Nitro',    'adventureland', 'steve-doig-Pm8PTvvEU1w-unsplash.jpg', 'Nitro is tijdelijk gesloten op last van de politie wegens een ongeval. ', 100, 0);
 
 --
 -- Tabel: `users`
