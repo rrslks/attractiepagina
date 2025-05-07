@@ -355,3 +355,41 @@ th{
   }
 }
 
+h2{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.attracties{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  grid-auto-flow: dense;
+}
+
+.attractie{
+  border-radius: 5%;
+  background-color: rgb(228, 228, 228);
+}
+
+.attracties .img{
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.attractieinfo h1{
+  font-size: 30px;
+}
+
+.attractieinfo p{
+  font-size: 17px;
+
+}
